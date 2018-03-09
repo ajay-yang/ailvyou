@@ -1,0 +1,279 @@
+a:link, a:visited {color:#606060;}
+a:hover {color:orangered;}
+.fixed {position:fixed;z-index:1000;}
+
+/* 头部 */
+#header{
+	height:101px;
+	}
+#header .topnav {
+	background:#000000;
+	}
+#header .topnav ul li {
+	height:35px;
+	color:#fff;
+	font-size:13px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	}
+#header .topnav ul li a{
+	color:#fff;
+	margin:8px;
+	}
+#header .topnav ul li a:hover {
+	color:orangered;
+	}
+#header .topnav .info {
+	float:right;
+	}
+#header .topnav .info a.mail, #header .topnav .info a.msg {
+	display:block;
+	width:20px;
+	height:20px;
+	}
+#header .topnav .info a.mail {
+	background:url(../images/head.png) -5px -192px no-repeat;
+	}
+#header .topnav .info a.mail:hover {
+	background:url(../images/head.png) -36px -208px no-repeat;
+	}
+#header .topnav .info a.msg {
+	background:url(../images/head.png) -115px -190px no-repeat;
+	}
+#header .topnav .info a.msg:hover {
+	background:url(../images/head.png) -148px -206px no-repeat;
+	}
+#header .topnav .info img{
+	height:29px;
+	float:left;
+	margin-left:5px;
+	margin-top:3px;
+	}
+/*---------------------------------------------------------------------*/	
+.nav {
+	padding:6px 0;
+	border-bottom:1px solid #CCCCCC;
+	}
+.w980 {
+	width:980px;
+	margin:0 auto;
+	}
+.l {
+	float:left;
+	}
+.r {
+	float:right;
+	}	
+#header .navfixed {
+	width:100%;
+	top:0;
+	background:url(../images/bg.jpg);
+	}
+#header .nav .logo a {
+	width:125px;
+	height:50px;
+	display:block;
+	background-image:url(../images/logo.png);
+	background-size:cover;
+	}
+#header .nav .menu {
+	margin-left:20px;
+	}
+#header .nav .menu li{
+	height:50px;
+	padding:0px 10px;
+	line-height:50px;
+	background:url(../images/nav-line.png) no-repeat right 17px;
+	float:left;
+	}
+#header .nav .menu li.lastli {
+	background:none;
+	}
+#header .nav .menu a {
+	font-size:16px;
+	margin:0px 7px;
+	}
+#header .nav .menu a.toplist {
+	font-size:18px;
+	}
+#header .nav .search {
+	margin-top:12px;
+	height:26px;
+	border:1px solid #D4D4D4;
+	}
+#header .nav .search form input {
+	width:184px;
+	height:12px;
+	padding:7px 0 7px 6px;
+	border:0 none;
+	line-height:12px;
+	}
+#header .nav .search form button {
+	width:32px;
+	height:30px;
+	border:0 none;
+	vertical-align:top;
+	background:url(../images/head.png) -110px -126px no-repeat;
+	cursor:pointer;
+	}
+	
+/*#header .line {height:3px;}
+#header .linefixed {width:100%;top:63px;}*/
+
+/* 内容 */
+#content {
+	width:980px;
+	margin:15px auto 0px;
+	}
+/* 主体 */
+#content .main {
+	width:730px;
+	float:left;
+	}
+/* 侧边 */
+#content .sider {
+	width:240px;
+	float:right;
+	}
+
+
+
+/*展示列表*/
+#content .section .title {
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #CCCCCC;
+	letter-spacing:1px;
+	}
+#content .section .title h2 {
+	padding-left:15px;
+	float:left;
+	font-size:20px;
+}
+#content  .section .title span {
+	font-size:13px;
+	float:right;
+}
+
+
+
+ /*右侧信息栏*/
+#content .sider .title {
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #CCCCCC;
+	letter-spacing:1px;
+	}
+ #content .sider .title h2 {
+	padding-left:15px;
+	float:left;
+	font-size:20px;
+	}
+#content .sider .title h3 {
+	padding-left:10px;
+	float:left;
+	font-size:15px;
+	color:#75C50A;
+	}
+#content .sider .title span {
+	font-size:13px;
+	float:right;
+	}
+
+
+/* 底部         */
+#footer .line {
+	height:3px;
+	border-bottom:1px solid #CCCCCC;
+	}
+#footer .copy {
+	height:50px;
+	text-align:center;
+	padding:10px;
+	line-height:25px;
+	font-size:14px;
+}
+
+
+.tools {
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	}
+.tools a{
+	display:block;
+	width:55px;
+	height:56px;
+	color:white;
+	padding:1px;
+	line-height:22px;
+	text-align:center;
+	}
+.tools a i{
+	width:25px;
+	height:22px;
+	display:block;
+	margin:5px auto;
+	}
+.tools .gotop {
+	background:#999999;
+	margin-bottom:1px;
+	display:none;
+	}
+.tools .gotop i {
+	background:url(../images/sjbz_survey.png) -63px 5px no-repeat;
+	}
+	
+.tools .suggest {
+	background:#3687D9;
+	height:65px;
+	}
+.tools .suggest i {
+	width:27px;
+	height:30px;
+	background:url(../images/sjbz_survey.png) -30px 5px no-repeat;
+	}
+	
+/*提交反馈*/	
+.sugform {
+	width:318px;
+	overflow:hidden;
+	height:0;
+	background:#FFFFFF;
+	border-radius:3px;
+	/*border:1px solid #CCCCCC;*/
+	position:fixed;
+	bottom:0;
+	right:5px;
+
+	}
+.sugform .sugtitle {
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #CCCCCC;
+	}
+.sugform .sugtitle p {
+	float:left;
+	text-align:center;
+	padding-left:15px;
+	}
+.sugform .sugtitle p span {
+	color:orange;
+	margin:0 5px;
+	}
+.sugform .sugtitle a {
+	width:35px;
+	height:35px;
+	float:right;
+	margin-right:5px;
+	background:url(../images/sjbz_survey.png) 0 -52px no-repeat;
+	cursor:pointer;
+	}
+.sugform .check textarea{
+	width:300px;
+	margin:5px;
+	height:160px;
+}
+	
